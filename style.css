@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background-image: url(./Img/title-back.jpg);
+  padding: 20rem 10rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  position: relative;
+  border-radius: 5px;
+  max-width: 100%;
+  background-color: white;
+  padding: 1rem;
+}
+
+.title h1 {
+  text-decoration: line-through;
+  font-size: 50px;
+  color: #163561;
+}
+
+.title h2 {
+  font-size: 30px;
+}
+
+.introduction {
+  background-color: #6385dc;
+  padding: 20rem;
+}
+
+.donutP {
+  background-image: url(./Img/background.jpg);
+  padding: 10rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.container img {
+  max-height: 100%;
+}
+
+.fact-1 {
+  background-color: #ef7d28;
+  padding: 15rem;
+}
+
+.fact-1 h3 {
+  font-size: 80px;
+}
+
+.mapP {
+  padding: 10rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.opening-par {
+  padding: 10rem;
+  background-color: #6385dc;
+}
