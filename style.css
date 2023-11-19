@@ -30,15 +30,30 @@ header {
 
 .introduction {
   background-color: #6385dc;
-  padding: 20rem;
+  padding: 50vh;
 }
 
-.donutP {
+.introduction h2 {
+  display: grid;
+  justify-content: center;
+  height: 50vh;
+}
+
+.introduction p {
+  max-width: 50rem;
+  background-color: rgba(200, 200, 200, 0.825);
+  color: #000;
+  margin-bottom: 40vh;
+  border-radius: 50px;
+  border-style: groove;
+}
+
+/* .donutP {
   background-image: url(./Img/background.jpg);
   padding: 10rem;
   background-position: center;
   background-size: cover;
-}
+} */
 
 .container {
   background-color: white;
@@ -62,10 +77,40 @@ header {
   font-size: 80px;
 }
 
-.mapP {
+#BIG {
+  text-transform: uppercase;
+}
+
+.list-items li {
+  margin: 10rem 3rem;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-radius: 50px;
+  border-style: groove;
+  color: #0c3b50;
+}
+
+.map{
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  
+}
+
+#mapStats {
+  margin: auto 5rem;
+}
+
+
+/* .mapP {
   padding: 10rem;
   background-position: center;
   background-size: cover;
+} */
+
+.fact-2 {
+  background-color: #ef7d28;
+  padding: 15rem;
 }
 
 .opening-par {
