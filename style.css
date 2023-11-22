@@ -5,7 +5,7 @@
 
 header {
   background-image: url(./Img/title-back.jpg);
-  padding: 20rem 10rem;
+  padding: 20vw 5rem;
   background-position: center;
   background-size: cover;
 }
@@ -30,45 +30,119 @@ header {
 
 .introduction {
   background-color: #6385dc;
-  padding: 20rem;
+  padding: 20vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.donutP {
+.introduction h2 {
+  font-size: 30px;
+}
+
+.introduction p {
+  font-size: 25px;
+}
+
+.chart-container {
   background-image: url(./Img/background.jpg);
-  padding: 10rem;
   background-position: center;
   background-size: cover;
-}
-
-.container {
-  background-color: white;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding: 1rem;
-  border-radius: 3px;
+  flex-direction: row;
+  gap: 5rem;
+  padding: 10vw;
 }
 
-.container img {
-  max-height: 100%;
+.chart-text {
+  max-width: 20rem;
+  background-color: rgba(255, 255, 255);
+  padding: 1rem;
+  font-size: 18px;
+  border-radius: 5px;
+  border: solid;
+  border-color: oldlace;
+}
+
+.chart-text p {
+  margin: 5rem 0rem;
+}
+
+.chart {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255);
+  flex-basis: 100%;
+  border-radius: 5px;
+  border: solid;
+  border-color: oldlace;
 }
 
 .fact-1 {
   background-color: #ef7d28;
-  padding: 15rem;
+  padding: 15vw;
 }
 
 .fact-1 h3 {
   font-size: 80px;
 }
 
-.mapP {
-  padding: 10rem;
+.map-container {
   background-position: center;
   background-size: cover;
 }
 
-.opening-par {
-  padding: 10rem;
-  background-color: #6385dc;
+.map-text {
+  padding-top: 10vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.map {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 10vw;
+}
+
+.fact-2 {
+  background-color: #ef7d28;
+  padding: 15vw;
+}
+
+.fact-2 h3 {
+  font-size: 50px;
+}
+
+.fact-list {
+  background-image: url(./Img/list-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.intro-list {
+  padding: 30vw 2rem;
+  font-size: 30px;
+}
+
+.fact-list h3 {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  color: #373751;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30vw;
+  padding: 2rem;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.list-items li {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
 }

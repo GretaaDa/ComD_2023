@@ -12,6 +12,7 @@
       <div class="title">
         <div class="content">
           <h1>It's okay not to be okay</h1>
+          <!--Make h2 fade in from left-->
           <h2>
             All you need to know about mental health based on US statistics
           </h2>
@@ -23,36 +24,77 @@
         <h2>What is mental health?</h2>
         <p>
           Mental health is a state of well-being in which one's mind, emotions,
-          thoughts and behaviors are in constant flux.
+          thoughts and behaviors are in constant flux. Our emotional,
+          psychological, and social well-being are all parts of our mental
+          health. It influences our thoughts, feelings, and behaviors and
+          influences how we respond to stress, interact with others, and make
+          decisions. All phases of life, from infancy and adolescence to
+          adulthood, place importance on mental wellness. Experiencing mental
+          health issues may have a lasting impact on your thoughts, emotions,
+          and actions.
         </p>
       </article>
       <!--Anything that is text should be html (if we have time make the graph js)-->
-      <div style="min-height: 408px">
-        <script
-          type="text/javascript"
-          defer
-          src="https://datawrapper.dwcdn.net/Grio2/embed.js?v=1"
-          charset="utf-8"
-        ></script>
-        <noscript
-          ><img src="https://datawrapper.dwcdn.net/Grio2/full.png" alt=""
-        /></noscript>
-      </div>
+      <article class="chart-container">
+        <div class="chart-text">
+          <p>
+            In 2021, 22.8% of adult Americans suffered from a mental illness;
+            the most common disorders were anxiety, depression, PTSD, bipolar
+            disorder, and borderline personality disorder (BPD). Higher
+            frequency is seen in the LGBT population (50.2%), among multiracial
+            people (34.9%), and among American Indian communities (26.6%),
+            according to demographic characteristics.
+          </p>
+        </div>
+        <div class="chart">
+          <script
+            type="text/javascript"
+            defer
+            src="https://datawrapper.dwcdn.net/Grio2/embed.js?v=1"
+            charset="utf-8"
+          ></script>
+          <noscript
+            ><img src="https://datawrapper.dwcdn.net/Grio2/full.png" alt=""
+          /></noscript>
+        </div>
+      </article>
+      <!--Fact slides in from the righ-->
       <div class="fact-1">
         <h3>More than 1 in 5 in the US have a mental illness</h3>
       </div>
-      <iframe
-        width="600"
-        height="371"
-        seamless
-        frameborder="0"
-        scrolling="no"
-        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSXQn2Bp5o4nY2Fl6jDskWFeDuQCAj4U5Iqzs_8X_Fhqyl9L-Q3a5eeC8m_hiiU-M37_rk4K0MCL5Oi/pubchart?oid=979339256&amp;format=interactive"
-      ></iframe>
-      <article class="factor-list">
+      <article class="map-container">
+        <h3 class="map-text">
+          A visual representation of the percentages of mental disease in each
+          state in the United States sheds light on the top five states with the
+          greatest and lowest rates of serious mental illness.
+        </h3>
+        <!--Unable to adjust the iframes size, is it possible to get a responsive map?-->
+        <div class="map">
+          <iframe
+            width="600"
+            height="371"
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSXQn2Bp5o4nY2Fl6jDskWFeDuQCAj4U5Iqzs_8X_Fhqyl9L-Q3a5eeC8m_hiiU-M37_rk4K0MCL5Oi/pubchart?oid=979339256&amp;format=interactive"
+          ></iframe>
+        </div>
+      </article>
+      <div class="fact-2">
+        <h3>
+          There is no specific reason why a person has mental health problems,
+          it usually comes from a wide range of sources, and is individual, on
+          how deeply it affects one's mental state.
+        </h3>
+      </div>
+      <article class="fact-list">
         <div>
-          But there are some potential factors that can rase some issues for
-          your mental wellbeing:
+          <div class="intro-list">
+            <h3>
+              But there are some potential factors that can rase some issues for
+              your mental wellbeing:
+            </h3>
+          </div>
+          <!--Fade in the list items-->
           <ul class="list-items">
             <li>Childhood trauma – abuse, neglect, assault, violence</li>
             <li>Chronic medical conditions – cancer, diabetes</li>
@@ -67,6 +109,15 @@
             <li>Physical trauma – head injury, epilepsy</li>
           </ul>
         </div>
+      </article>
+      <article>
+        <h2>What are the risks?</h2>
+        <p>
+          One of the main causes of impairment is mental illness. Serious issues
+          with emotion, behavior, and physical health can result from untreated
+          mental illness. Sometimes, mental illness can lead to the following
+          complications :
+        </p>
       </article>
     </main>
   </body>
