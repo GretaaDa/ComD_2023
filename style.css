@@ -5,7 +5,7 @@
 
 header {
   background-image: url(./Img/title-back.jpg);
-  padding: 20vw 5rem;
+  padding: 21vw 5rem;
   background-position: center;
   background-size: cover;
 }
@@ -30,7 +30,7 @@ header {
 
 .introduction {
   background-color: #6385dc;
-  padding: 20vw;
+  padding: 21vw;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -51,21 +51,21 @@ header {
   display: flex;
   flex-direction: row;
   gap: 5rem;
-  padding: 10vw;
+  padding: 11vw;
 }
 
 .chart-text {
   max-width: 20rem;
-  background-color: rgba(255, 255, 255);
-  padding: 1rem;
   font-size: 18px;
-  border-radius: 5px;
-  border: solid;
-  border-color: oldlace;
 }
 
 .chart-text p {
-  margin: 5rem 0rem;
+  margin: 2rem 0rem;
+  background-color: rgba(255, 255, 255);
+  padding: 1rem;
+  border-radius: 5px;
+  border: solid;
+  border-color: oldlace;
 }
 
 .chart {
@@ -79,7 +79,7 @@ header {
 
 .fact-1 {
   background-color: #ef7d28;
-  padding: 15vw;
+  padding: 16vw;
 }
 
 .fact-1 h3 {
@@ -91,58 +91,101 @@ header {
   background-size: cover;
 }
 
-.map-text {
+.percent-facts {
   padding-top: 10vw;
   padding-left: 2rem;
   padding-right: 2rem;
+  font-size: 25px;
+}
+
+.percent-facts a {
+  text-decoration: none;
+  color: #ef7d28;
+}
+.map-text {
+  padding-top: 2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 25px;
 }
 
 .map {
   justify-content: center;
   display: flex;
-  padding-bottom: 10vw;
+  padding-bottom: 11vw;
 }
 
-.fact-2 {
+.risks-title {
+  text-align: center;
+  padding: 25vw;
+  background-color: #6385dc;
+  font-size: 100px;
+}
+
+.risks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20vw 5rem;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.risks p {
+  padding: 2rem;
+  max-width: 25vw;
+  font-size: 20px;
+  background-color: #c6ccdd;
+  border-radius: 10px;
+}
+
+.help-title {
+  text-align: center;
+  padding: 25vw;
   background-color: #ef7d28;
-  padding: 15vw;
+  font-size: 100px;
 }
 
-.fact-2 h3 {
-  font-size: 50px;
-}
-
-.fact-list {
+.help {
   background-image: url(./Img/list-background.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20vw 5rem;
+  gap: 20rem;
+  justify-content: center;
 }
 
-.intro-list {
-  padding: 30vw 2rem;
-  font-size: 30px;
-}
-
-.fact-list h3 {
-  background-color: white;
+.help p {
   padding: 2rem;
+  max-width: 25vw;
+  font-size: 20px;
+  background-color: white;
   border-radius: 10px;
-  color: #373751;
+  min-width: 25vw;
+  min-height: 10vw;
+  text-align: center;
+  margin: 5rem;
 }
 
-.list-items {
+.help a {
+  color: black;
+}
+
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30vw;
-  padding: 2rem;
-  list-style-type: none;
-  font-size: 25px;
+  background-color: #6385dc;
+  gap: 1rem;
+  padding: 1rem;
 }
 
-.list-items li {
-  background-color: white;
-  padding: 2rem;
-  border-radius: 10px;
+footer a {
+  color: black;
+  text-decoration: none;
 }
