@@ -189,3 +189,108 @@ footer a {
   color: black;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 21vw 5rem;
+  }
+
+  .title {
+    padding: 1rem;
+  }
+
+  .title h1 {
+    text-decoration: line-through;
+    font-size: 50px;
+    color: #163561;
+  }
+
+  .title h2 {
+    font-size: 30px;
+  }
+  .chart-container {
+    flex-direction: column;
+  }
+
+  .fact-1 h3 {
+    font-size: 50px;
+  }
+
+  .map-container {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .percent-facts {
+    padding-top: 10vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 25px;
+  }
+
+  .percent-facts a {
+    text-decoration: none;
+    color: #ef7d28;
+  }
+  .map-text {
+    padding-top: 2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 25px;
+  }
+
+  .map {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 11vw;
+  }
+
+  .risks-title {
+    padding: 25vw 2rem;
+    font-size: 50px;
+  }
+
+  .risks {
+    flex-direction: column;
+    padding: 20vw 1rem;
+  }
+
+  .risks p {
+    max-width: 100%;
+  }
+
+  .help-title {
+    padding: 25vw 2rem;
+    background-color: #ef7d28;
+    font-size: 50px;
+  }
+
+  .help {
+    padding: 20vw 1rem;
+    gap: 20rem;
+    justify-content: center;
+  }
+
+  .help p {
+    max-width: 100%;
+    margin: 2rem;
+  }
+
+  .help a {
+    color: black;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6385dc;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  footer a {
+    color: black;
+    text-decoration: none;
+  }
+}
